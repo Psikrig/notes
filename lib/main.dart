@@ -53,6 +53,10 @@ class _NotesScreenState extends State<NotesScreen> {
     });
   }
 
+  void _dfdsf(int index) {
+    _editNote(index);
+  }
+
   void _deleteNote(int index) {
     setState(() {
       _notes.removeAt(index);
